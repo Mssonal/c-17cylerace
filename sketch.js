@@ -112,7 +112,7 @@ function draw() {
     gameOver.visible = true;
     textSize(20);
     fill(255);
-    text("Press Up Arrow to Restart the game!", 500,200);
+    text("Press Up Arrow to Restart the game!", 300,200);
   
     path.velocityX = 0;
     mainCyclist.velocityY = 0;
